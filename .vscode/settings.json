@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/34c31938-8084-4603-9d58-126971b71252/AppServices/subscriptions/34c31938-8084-4603-9d58-126971b71252/resourceGroups/appsvc_linux_centralus_premium/providers/Microsoft.Web/sites/Sic-Sunny",
+    "appService.deploySubpath": "."
+}
