@@ -91,7 +91,6 @@ client.on('messageCreate', async (message) => {
 client.on('messageCreate', async (message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  if (message.channel.id != channel_id) return
   if (message.content === "$ping") {
     try {
 
@@ -123,7 +122,6 @@ client.on('messageCreate', async (message) => {
 client.on('messageCreate', async (message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  if (message.channel.id != channel_id) return
   if (message.content === "$joke") {
     try {
 
@@ -153,7 +151,6 @@ client.on('messageCreate', async (message) => {
 client.on('messageCreate', async (message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  if (message.channel.id != channel_id) return
   if (message.content === "$coinflip") {
     var headsortails = Math.floor(Math.random() * 2);
 try {
@@ -182,7 +179,6 @@ try {
 client.on('messageCreate', async (message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  if (message.channel.id != channel_id) return
   if (message.content === "Help me with my studies" || message.content === "$studiesguide") {
 try {
   const studiesEmbed = new Discord.MessageEmbed
@@ -356,7 +352,6 @@ try {
 client.on('messageCreate', async (message) => {
   if (!message.guild) return;
   if (message.author.bot) return;
-  if (message.channel.id != channel_id) return
   if (message.content === "Show me the study materials" || message.content === "$e-books") {
 try {
   const eBooksEmbed = new Discord.MessageEmbed
